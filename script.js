@@ -71,11 +71,10 @@ function shuffleCard() {
   }
 }
 
-function restartGame(){
+function restartGame() {
   shuffleCard();
 
-displayCard();
-
+  displayCard();
 }
 
 function displayCard() {
@@ -117,13 +116,8 @@ function checkCard() {
   let cardTwo = flipCards[1].getAttribute("id");
 
   if (cardDetails[cardOne].name === cardDetails[cardTwo].name) {
-    // flipCards[0].style.backgroundColor = "#F3E5F5";
-    // flipCards[0].style.border = "none";
-    // flipCards[0].innerHTML = " ";
     flipCards[0].classList.remove("active");
-    // flipCards[1].style.backgroundColor = "#F3E5F5";
-    // flipCards[1].style.border = "none";
-    // flipCards[1].innerHTML = " ";
+
     flipCards[1].classList.remove("active");
     score = score + 5;
   } else {
