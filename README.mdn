@@ -1,0 +1,9 @@
+When you click a card it will reveal the fruit.
+
+If the two fruits match both cards will stay flipped.
+
+If they do not match both cards will flip back to their previous state.
+
+When all pairs are found the game will end and the score will be displayed.
+
+You can restart the game to play again.
